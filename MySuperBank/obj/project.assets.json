@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasir\\source\\repos\\MySuperBank\\MySuperBank.csproj",
+      "projectUniqueName": "C:\\Users\\vasir\\source\\repos\\dotNet\\MySuperBank\\MySuperBank.csproj",
       "projectName": "MySuperBank",
-      "projectPath": "C:\\Users\\vasir\\source\\repos\\MySuperBank\\MySuperBank.csproj",
+      "projectPath": "C:\\Users\\vasir\\source\\repos\\dotNet\\MySuperBank\\MySuperBank.csproj",
       "packagesPath": "C:\\Users\\vasir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasir\\source\\repos\\MySuperBank\\obj\\",
+      "outputPath": "C:\\Users\\vasir\\source\\repos\\dotNet\\MySuperBank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vasir\\AppData\\Roaming\\NuGet\\NuGet.Config",

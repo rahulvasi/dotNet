@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KZuP/YPcrTg6PbF14mcZdquu48wja2Oap9hqDcOcfolOsj5QuBvPfCz1g//f5pfdDfuuCdFg7/kMdbTLZ0ZbKg==",
+  "dgSpecHash": "M9GsVe2i1J4WsBmnNlTzkx+H5Vhf58YQX6k4/NgnB+dXNPR30z3UiiprDVvpaTZ1ecLmbi7z64+AwbQY6ohAMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vasir\\source\\repos\\MySuperBank\\MySuperBank.csproj",
+  "projectFilePath": "C:\\Users\\vasir\\source\\repos\\dotNet\\MySuperBank\\MySuperBank.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
