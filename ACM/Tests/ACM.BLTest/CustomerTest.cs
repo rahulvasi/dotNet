@@ -13,13 +13,13 @@ namespace ACM.BLTest
             // Arrange
             var customer = new Customer
             {
-                firstName = "Bilbo",
-                lastName = "Baggins"
+                FirstName = "Bilbo",
+                LastName = "Baggins"
             };
             string expected = "Baggins, Bilbo";
 
             // Act
-            string actual = customer.fullName;
+            string actual = customer.FullName;
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -30,11 +30,11 @@ namespace ACM.BLTest
         {
             // Arrange
             var customer = new Customer();
-            customer.lastName = "Baggins";
+            customer.LastName = "Baggins";
             string expected = "Baggins";
 
             // Act
-            string actual = customer.fullName;
+            string actual = customer.FullName;
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -45,11 +45,11 @@ namespace ACM.BLTest
         {
             // Arrange
             var customer = new Customer();
-            customer.firstName = "Bilbo";
+            customer.FirstName = "Bilbo";
             string expected = "Bilbo";
 
             // Act
-            string actual = customer.fullName;
+            string actual = customer.FullName;
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -60,21 +60,52 @@ namespace ACM.BLTest
         {
             // Arrange
             var c1 = new Customer();
-            c1.firstName = "Bilbo";
+            c1.FirstName = "Bilbo";
             Customer.InstanceCount += 1;
 
             var c2 = new Customer();
-            c2.firstName = "Frodo";
+            c2.FirstName = "Frodo";
             Customer.InstanceCount += 1;
 
             var c3 = new Customer();
-            c3.firstName = "Rosie";
+            c3.FirstName = "Rosie";
             Customer.InstanceCount += 1;
 
             // Act
 
             // Assert
             Assert.AreEqual(3, Customer.InstanceCount);
+        }
+
+        [TestMethod]
+        public void ValidateValid()
+        {
+            // Arrange
+            var customer = new Customer();
+            customer.LastName = "Vasireddi";
+            customer.EmailAddress = "vasireddi.rahul@gmail.com";
+            var expected = true;
+
+            // Act
+            var actual = customer.Validate();
+
+            //Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void ValidateMissingLastName()
+        {
+            // Arrange
+            var customer = new Customer();
+            customer.EmailAddress = "vasireddi.rahul@gmail.com";
+            var expected = false;
+
+            // Act
+            var actual = customer.Validate();
+
+            // Assert
+            Assert.AreEqual(expected, actual);
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lr830lYvZqqKBNiZy2vZ84RdZn6rmLOik4xnUMldNOEQ1yyTeVeQ3pthENLeiC5HQkX5GzA6AmnOnfR9CM/9Qw==",
+  "dgSpecHash": "EwnkImeJTNDsaPpBpraURvgPtHV9z520Xe6jBy6oTXQw0TLwKqv1qDK26lGxjOiX/47VxWaaMOlYi9hDx27CTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\ACM.BL.csproj",
+  "projectFilePath": "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\ACM.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vasir\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\vasir\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

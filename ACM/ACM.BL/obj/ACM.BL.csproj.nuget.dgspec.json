@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\ACM.BL.csproj": {}
+    "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\ACM.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\ACM.BL.csproj": {
+    "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\ACM.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\ACM.BL.csproj",
+        "projectUniqueName": "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\ACM.BL.csproj",
         "projectName": "ACM.BL",
-        "projectPath": "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\ACM.BL.csproj",
+        "projectPath": "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\ACM.BL.csproj",
         "packagesPath": "C:\\Users\\vasir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasir\\source\\repos\\ACM\\ACM.BL\\obj\\",
+        "outputPath": "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\ACM.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
