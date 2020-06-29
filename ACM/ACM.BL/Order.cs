@@ -19,18 +19,6 @@ namespace ACM.BL
             this.OrderId = orderId;    
         }
 
-        // Retrieve one order
-        public Order Retrieve(int orderId)
-        {
-            return new Order();
-        }
-
-        // Saves the current order
-        public bool Save()
-        {
-            return true;
-        }
-
         // Validate the order data
         public bool Validate()
         {

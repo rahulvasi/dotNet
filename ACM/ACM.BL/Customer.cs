@@ -47,19 +47,6 @@ namespace ACM.BL
             return new Customer();
         }
 
-        // Retrieve all customers
-        public List<Customer> Retrieve()
-        {
-
-            return new List<Customer>();
-        }
-
-        // Save the current customer
-        public bool Save()
-        {
-            return true;
-        }
-
         // Validate the customer data
         public bool Validate()
         {

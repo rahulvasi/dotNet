@@ -11,16 +11,14 @@ namespace ACM.BL
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
 
-        // Retrieve one product
-        public Product Retrieve(int productId)
+        public Product()
         {
-            return new Product();
+
         }
 
-        // Saves current product
-        public bool Save()
+        public Product(int productId)
         {
-            return true;
+            this.ProductId = productId;
         }
 
         // Validate the product data
