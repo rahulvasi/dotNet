@@ -4,12 +4,13 @@ using System.Text;
 
 namespace ACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public decimal? CurrentPrice { get; set; }
         public string ProductDescription { get; set; }
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
+        public override string ToString() => ProductName;
 
         public Product()
         {
@@ -22,7 +23,7 @@ namespace ACM.BL
         }
 
         // Validate the product data
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 

@@ -4,7 +4,7 @@ using System.Runtime.InteropServices.ComTypes;
 
 namespace ACM.BL
 {
-    public class Customer
+    public class Customer : EntityBase
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -27,9 +27,10 @@ namespace ACM.BL
             }
         }
         public static int InstanceCount { get; set; }
+        public List<Address> AddressList { get; set; }
 
         // Constructor without parameters
-        public Customer()
+        public Customer() : this(0)
         {
 
         }
@@ -38,7 +39,10 @@ namespace ACM.BL
         public Customer(int customerId)
         {
             this.CustomerId = customerId;
+            AddressList = new List<Address>();
         }
+
+        public override string ToString() => FullName;
 
         // Retrieve one customer
         public Customer Retrieve(int customerId)
@@ -48,7 +52,7 @@ namespace ACM.BL
         }
 
         // Validate the customer data
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
