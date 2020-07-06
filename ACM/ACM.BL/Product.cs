@@ -1,15 +1,28 @@
-﻿using System;
+﻿using Acme.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public decimal? CurrentPrice { get; set; }
         public string ProductDescription { get; set; }
         public int ProductId { get; private set; }
-        public string ProductName { get; set; }
+        public string ProductName {
+            get
+            {
+                return StringHandler.InsertSpaces(ProductName);
+            }
+            set
+            {
+                this.ProductName = value;
+            }
+        }
+
+        public string Log() =>
+            $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
         public override string ToString() => ProductName;
 
         public Product()

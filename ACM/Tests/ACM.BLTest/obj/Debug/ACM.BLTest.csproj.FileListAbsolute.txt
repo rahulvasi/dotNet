@@ -30,3 +30,5 @@ C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\bin\Debug\ACM.BL.pdb
 C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\obj\Debug\ACM.BLTest.csproj.CopyComplete
+C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\bin\Debug\Acme.Common.dll
+C:\Users\vasir\source\repos\dotNet\ACM\Tests\ACM.BLTest\bin\Debug\Acme.Common.pdb

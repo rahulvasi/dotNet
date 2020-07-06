@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Acme.Common;
+using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 
 namespace ACM.BL
 {
-    public class Customer : EntityBase
+    public class Customer : EntityBase, ILoggable
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -42,6 +43,8 @@ namespace ACM.BL
             AddressList = new List<Address>();
         }
 
+        public string Log() =>
+            $"{CustomerId}: {FullName} Email: {EmailAddress} Status: {EntityState.ToString()}";
         public override string ToString() => FullName;
 
         // Retrieve one customer

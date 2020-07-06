@@ -25,6 +25,15 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Acme.Common/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Acme.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Acme.Common.dll": {}
+        }
       }
     }
   },
@@ -172,10 +181,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Acme.Common/1.0.0": {
+      "type": "project",
+      "path": "../Acme.Common/Acme.Common.csproj",
+      "msbuildProject": "../Acme.Common/Acme.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Acme.Common >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +219,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\Acme.Common\\Acme.Common.csproj": {
+              "projectPath": "C:\\Users\\vasir\\source\\repos\\dotNet\\ACM\\Acme.Common\\Acme.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

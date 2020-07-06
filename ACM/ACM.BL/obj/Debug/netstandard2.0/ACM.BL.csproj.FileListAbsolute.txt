@@ -16,3 +16,6 @@ C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.pd
 C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.deps.json
 C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.dll
 C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\bin\Debug\netstandard2.0\ACM.BL.pdb
+C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\bin\Debug\netstandard2.0\Acme.Common.dll
+C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\bin\Debug\netstandard2.0\Acme.Common.pdb
+C:\Users\vasir\source\repos\dotNet\ACM\ACM.BL\obj\Debug\netstandard2.0\ACM.BL.csproj.CopyComplete
